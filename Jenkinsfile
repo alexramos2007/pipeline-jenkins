@@ -30,7 +30,7 @@ pipeline {
                
         stage('Deploy Docker Image') {
             when {
-                branch 'master'
+                branch 'main'
             }
 
             steps {
